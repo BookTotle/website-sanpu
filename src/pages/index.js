@@ -1,3 +1,4 @@
+// 首页组件：展示网站的主要内容和概述
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
@@ -5,17 +6,20 @@ import Layout from '../components/Layout'
 export default function Home() {
   return (
     <Layout>
+      {/* 页面元数据配置 */}
       <Head>
         <title>湖北省第三次土壤普查 - 华中农业大学研究团队</title>
         <meta name="description" content="华中农业大学资源与环境学院土壤普查项目组官方网站" />
       </Head>
 
       <main className={styles.main}>
+        {/* 英雄区域：展示主标题和副标题 */}
         <section className={styles.hero}>
           <h1>湖北省第三次土壤普查</h1>
           <p className={styles.subtitle}>华中农业大学资源与环境学院土壤普查项目组</p>
         </section>
 
+        {/* 项目概述部分 */}
         <section className={styles.overview}>
           <h2>项目概述</h2>
           <p>本项目由华中农业大学资源与环境学院承担，旨在全面摸清湖北省土壤资源现状，建立完善的土壤数据库，为农业可持续发展提供科学依据。</p>
@@ -32,6 +36,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* 最新动态部分 */}
         <section className={styles.news}>
           <h2>最新动态</h2>
           <div className={styles.newsGrid}>
@@ -48,6 +53,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* 研究团队展示部分 */}
         <section className={styles.team}>
           <h2>研究团队</h2>
           <div className={styles.teamMembers}>

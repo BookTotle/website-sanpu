@@ -1,3 +1,4 @@
+// 研究进展页面：展示项目的研究方法和成果
 import Layout from '../components/Layout'
 import styles from '../styles/Research.module.css'
 
@@ -7,6 +8,7 @@ export default function Research() {
       <div className={styles.container}>
         <h1>研究进展</h1>
         
+        {/* 项目进度展示部分 */}
         <section className={styles.progressSection}>
           <h2>项目进度</h2>
           <div className={styles.progressGrid}>
@@ -40,6 +42,7 @@ export default function Research() {
           </div>
         </section>
 
+        {/* 研究方法说明部分 */}
         <section className={styles.methodSection}>
           <h2>研究方法</h2>
           <div className={styles.methodContent}>
@@ -64,6 +67,7 @@ export default function Research() {
           </div>
         </section>
 
+        {/* 初步成果展示部分 */}
         <section className={styles.resultsSection}>
           <h2>初步成果</h2>
           <div className={styles.resultsContent}>

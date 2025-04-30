@@ -1,9 +1,13 @@
+/* 布局样式：定义网站的整体布局结构 */
+
+/* 容器样式 */
 .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* 导航栏样式 */
 .nav {
   background: #fff;
   padding: 1rem 2rem;
@@ -13,6 +17,7 @@
   align-items: center;
 }
 
+/* Logo样式 */
 .logo a {
   color: #2E7D32;
   font-size: 1.5rem;
@@ -20,6 +25,7 @@
   text-decoration: none;
 }
 
+/* 导航链接列表样式 */
 .navLinks {
   display: flex;
   list-style: none;
@@ -27,10 +33,12 @@
   padding: 0;
 }
 
+/* 导航链接列表样式 */
 .navLinks li {
   margin-left: 2rem;
 }
 
+/* 导航链接列表样式 */
 .navLinks a {
   color: #333;
   text-decoration: none;
@@ -38,10 +46,12 @@
   transition: color 0.3s;
 }
 
+/* 导航链接列表样式 */
 .navLinks a:hover {
   color: #2E7D32;
 }
 
+/* 页脚样式 */
 .footer {
   background: #333;
   color: #fff;
@@ -49,6 +59,7 @@
   margin-top: auto;
 }
 
+/* 页脚样式 */
 .footerContent {
   max-width: 1200px;
   margin: 0 auto;
@@ -57,20 +68,24 @@
   gap: 2rem;
 }
 
+/* 页脚样式 */
 .footerSection h3 {
   color: #fff;
   margin-bottom: 1rem;
 }
 
+/* 页脚样式 */
 .footerSection ul {
   list-style: none;
   padding: 0;
 }
 
+/* 页脚样式 */
 .footerSection ul li {
   margin-bottom: 0.5rem;
 }
 
+/* 页脚样式 */
 .footerSection a {
   color: #fff;
   text-decoration: none;
@@ -78,13 +93,34 @@
   transition: opacity 0.3s;
 }
 
+/* 页脚样式 */
 .footerSection a:hover {
   opacity: 1;
 }
 
+/* 页脚样式 */
 .copyright {
   text-align: center;
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* 响应式布局调整 */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navLinks {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navLinks li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
 }

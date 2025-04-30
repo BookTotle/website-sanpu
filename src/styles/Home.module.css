@@ -1,9 +1,13 @@
+/* 首页样式：定义首页特定的样式 */
+
+/* 主要内容区域样式 */
 .main {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/* 英雄区域样式 */
 .hero {
   text-align: center;
   padding: 4rem 0;
@@ -13,16 +17,7 @@
   margin-bottom: 2rem;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
-
+/* 概述部分样式 */
 .overview {
   background: #fff;
   padding: 2rem;
@@ -31,20 +26,24 @@
   margin-bottom: 2rem;
 }
 
+/* 关键点列表样式 */
 .keyPoints {
   margin-top: 1.5rem;
 }
 
+/* 关键点列表样式 */
 .keyPoints ul {
   list-style: none;
   padding: 0;
 }
 
+/* 关键点列表样式 */
 .keyPoints li {
   padding: 0.5rem 0;
   border-bottom: 1px solid #eee;
 }
 
+/* 新闻网格布局样式 */
 .newsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -52,6 +51,7 @@
   margin-top: 1.5rem;
 }
 
+/* 新闻网格布局样式 */
 .newsItem {
   background: #fff;
   padding: 1.5rem;
@@ -59,11 +59,13 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* 新闻网格布局样式 */
 .date {
   color: #666;
   font-size: 0.9rem;
 }
 
+/* 团队成员展示样式 */
 .teamMembers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -71,6 +73,7 @@
   margin-top: 2rem;
 }
 
+/* 团队成员展示样式 */
 .member {
   background: #fff;
   padding: 1.5rem;
@@ -79,6 +82,7 @@
   text-align: center;
 }
 
+/* 团队成员展示样式 */
 .member h3 {
   color: #2E7D32;
   margin-bottom: 0.5rem;

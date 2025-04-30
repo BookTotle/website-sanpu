@@ -1,27 +1,32 @@
+/* 容器样式：设置最大宽度、居中对齐和内边距 */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
 
+/* 标题样式：设置颜色为绿色、居中对齐和底部间距 */
 .container h1 {
   color: #2E7D32;
   text-align: center;
   margin-bottom: 3rem;
 }
 
+/* 联系网格布局：使用网格布局，两列等宽，列间距3rem */
 .contactGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
 
+/* 联系信息和留言表单的二级标题样式 */
 .contactInfo h2,
 .messageForm h2 {
   color: #333;
   margin-bottom: 2rem;
 }
 
+/* 信息卡片样式：白色背景、圆角和阴影效果 */
 .infoCard {
   background: #fff;
   padding: 2rem;
@@ -29,24 +34,29 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* 信息项样式：设置底部间距 */
 .infoItem {
   margin-bottom: 2rem;
 }
 
+/* 最后一个信息项移除底部间距 */
 .infoItem:last-child {
   margin-bottom: 0;
 }
 
+/* 信息项标题样式：绿色文字和底部间距 */
 .infoItem h3 {
   color: #2E7D32;
   margin-bottom: 1rem;
 }
 
+/* 信息项段落样式：灰色文字和行高 */
 .infoItem p {
   color: #666;
   line-height: 1.6;
 }
 
+/* 表单容器样式：白色背景、圆角和阴影效果 */
 .form {
   background: #fff;
   padding: 2rem;
@@ -54,16 +64,19 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* 表单组样式：设置底部间距 */
 .formGroup {
   margin-bottom: 1.5rem;
 }
 
+/* 表单标签样式：块级显示、深灰色文字和底部间距 */
 .formGroup label {
   display: block;
   color: #333;
   margin-bottom: 0.5rem;
 }
 
+/* 表单输入框和文本域共同样式 */
 .formGroup input,
 .formGroup textarea {
   width: 100%;
@@ -73,10 +86,12 @@
   font-size: 1rem;
 }
 
+/* 文本域可调整大小方向 */
 .formGroup textarea {
   resize: vertical;
 }
 
+/* 提交按钮样式：绿色背景、白色文字、圆角和过渡效果 */
 .submitBtn {
   background: #2E7D32;
   color: white;
@@ -88,19 +103,24 @@
   width: 100%;
 }
 
+/* 提交按钮悬停效果：深绿色背景 */
 .submitBtn:hover {
   background: #1B5E20;
 }
 
+/* 响应式布局：屏幕宽度小于768px时的样式调整 */
 @media (max-width: 768px) {
+  /* 减小容器内边距 */
   .container {
     padding: 1rem;
   }
   
+  /* 改变网格布局为单列 */
   .contactGrid {
     grid-template-columns: 1fr;
   }
   
+  /* 联系信息区域添加底部间距 */
   .contactInfo {
     margin-bottom: 2rem;
   }
