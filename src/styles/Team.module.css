@@ -22,7 +22,7 @@
 }
 
 .memberCard {
-  background: #fff;
+  background: linear-gradient(to bottom, #f9f9f9, #e9e9e9);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -67,56 +67,56 @@
 }
 
 .details li:before {
-  content: "•";
-  color: #2E7D32;
-  position: absolute;
-  left: 0;
+  content: "•";   •"试点;
+  color: #2E7D32;   颜色:# 2 e7d32;
+  position: absolute;   位置:绝对的;
+  left: 0;   左:0;
 }
 
-.achievementsSection {
-  margin-top: 4rem;
+.achievementsSection {   .achievementsSection}
+  margin-top: 4rem;   margin-top: 4快速眼动;
 }
 
 .achievements {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  display: grid;   显示:网格;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));Grid-template-columns: repeat   重复(auto-fit, minmax   极大极小(300px, 1fr   真的吗))；
+  gap: 2rem;   差距:2快速眼动;
+  margin-top: 2rem;   margin-top: 2快速眼动;
 }
 
-.achievementCard {
-  background: #fff;
-  padding: 2rem;
+.achievementCard {   .achievementCard}
+  background: linear-gradient(to bottom, #f9f9f9, #e9e9e9);背景：线性渐变（到底，#f9f9f9, #e9e9e9）；
+  padding: 2rem;   填充:2快速眼动;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);Box-shadow: 0 2px 4px rgba(0,0,0,0.1)；
 }
 
-.achievementCard h3 {
-  color: #2E7D32;
-  margin-bottom: 1rem;
+.achievementCard h3 {   成就卡h3 {
+  color: #2E7D32;   颜色:# 2 e7d32;
+  margin-bottom: 1rem;   margin-bottom: 1快速眼动;
 }
 
 .achievementCard ul {
-  list-style: none;
-  padding: 0;
+  list-style: none;   list-style:没有;
+  padding: 0;   填充:0;
 }
 
 .achievementCard li {
-  margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  position: relative;
+  margin-bottom: 0.5rem;   margin-bottom: 0.5快速眼动;
+  padding-left: 1.5rem;   padding-left: 1.5快速眼动;
+  position: relative;   位置:相对;
 }
 
 .achievementCard li:before {
-  content: "•";
-  color: #2E7D32;
-  position: absolute;
-  left: 0;
+  content: "•";   •"试点;
+  color: #2E7D32;   颜色:# 2 e7d32;
+  position: absolute;   位置:绝对的;
+  left: 0;   左:0;
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 1rem;
+    padding: 1rem;   填充:1快速眼动;
   }
   
   .membersGrid {
