@@ -1,27 +1,32 @@
 {
-  "name": "website-sanpu",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "name"   “名称”: "website-sanpu"   “website-sanpu”,
+  "version"   “版本”: "0.1.0",
+  "private"   “私人”: true   真正的,
+  "scripts"   “脚本”: {
+    "dev"   “开发”: "next dev --turbopack"   “下一个开发项目——涡轮包”,
+    "build"   “构建”: "next build"   “下一个构建”,
+    "start"   “开始”: "next start"   “下一个开始”,
+    "lint"   “棉絮”: "next lint"   “下一个线头”
   },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.1"
+  "dependencies"   “依赖”: {
+    "chart.js": "^4.4.9",
+    "framer-motion"   “framer-motion”: "^12.11.3",
+    "next"   “下一个”: "15.3.1",
+    "react"   “反应”: "^19.0.0",
+    "react-chartjs-2"   “react-chartjs-2”: "^5.3.0",
+    "react-circular-progressbar"“react-circular-progressbar”: "^2.2.0",
+    "react-dom"   “react-dom”: "^19.0.0"
   },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+  "devDependencies"   “devDependencies”: {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/node"   “@types /节点”: "^20",
+    "@types/react"   “@types /反应”: "^19",
+    "@types/react-dom"   “@types / react-dom”: "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.3.1",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next"   “eslint-config-next”: "15.3.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
+
