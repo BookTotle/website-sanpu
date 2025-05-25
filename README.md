@@ -1,15 +1,4 @@
-## 入门开始
 
-首先，运行开发服务器：
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 这是一个使用Next.js构建的网站项目。要运行这个网站，按照以下步骤操作：
