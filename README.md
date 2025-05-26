@@ -33,12 +33,19 @@ npm run dev
 
 四人团队的分工：
 
-1. 组长董国伟（架构和核心功能）：
+1. 组长董国伟（架构和第一版开发）：
 - 负责项目整体架构设计
 - 开发核心组件（Layout组件）
 - 管理项目配置和依赖
 - 制定开发规范和流程
 - 负责首页（index.js）的开发
+第一版开发整体完成度如下：
+![微信图片_2025-05-26_092719_405](https://github.com/user-attachments/assets/f20db89e-9dc1-464b-8d9f-10378beec104)
+![微信图片_2025-05-26_092725_298](https://github.com/user-attachments/assets/71f4d269-3653-47bd-8ca9-f811269fd51d)
+![微信图片_2025-05-26_092728_192](https://github.com/user-attachments/assets/66c2ca58-dd57-4063-aa58-af2d411bf83b)
+![微信图片_2025-05-26_092730_668](https://github.com/user-attachments/assets/faef0561-9ff9-45d3-86a1-39adecc02992)
+![微信图片_2025-05-26_092733_594](https://github.com/user-attachments/assets/572f0b2d-43a8-4b23-adbf-d955b34c6846)
+![微信图片_2025-05-26_092736_788](https://github.com/user-attachments/assets/b51fea27-8c46-45a2-a621-9a5c12071c24)
 
 2. 组员范鹏飞（页面开发1）：
 - 负责研究进展页面（research.js）
