@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import styles from '../styles/Team.module.css'
-import Image from 'next/image'
+
 
 export default function Team() {
   return (
