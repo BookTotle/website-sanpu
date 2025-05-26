@@ -40,13 +40,13 @@ npm run dev
 
 四人团队的分工：
 
-1. 组长董国伟（架构和第一版开发）：
+1. 组长董国伟：
 - 负责项目整体架构设计
 - 开发核心组件（Layout组件）
 - 管理项目配置和依赖
 - 制定开发规范和流程
 - 负责首页（index.js）的开发
-第一版开发整体完成度如下：
+网站建设整体完成度如下：
 ![微信图片_2025-05-26_092719_405](https://github.com/user-attachments/assets/f20db89e-9dc1-464b-8d9f-10378beec104)
 ![微信图片_2025-05-26_092725_298](https://github.com/user-attachments/assets/71f4d269-3653-47bd-8ca9-f811269fd51d)
 ![微信图片_2025-05-26_092728_192](https://github.com/user-attachments/assets/66c2ca58-dd57-4063-aa58-af2d411bf83b)
@@ -54,19 +54,19 @@ npm run dev
 ![微信图片_2025-05-26_092733_594](https://github.com/user-attachments/assets/572f0b2d-43a8-4b23-adbf-d955b34c6846)
 ![微信图片_2025-05-26_092736_788](https://github.com/user-attachments/assets/b51fea27-8c46-45a2-a621-9a5c12071c24)
 
-2. 组员范鹏飞（页面开发1）：
+2. 组员范鹏飞：
 - 负责研究进展页面（research.js）
 - 负责团队介绍页面（team.js）
 - 维护相关的CSS样式模块
 - 负责页面的响应式适配
 
-3. 组员李泽楷（页面开发2）：
+3. 组员李泽楷：
 - 负责新闻动态页面（news.js）
 - 负责资料下载页面（resources.js）
 - 开发公共组件
 - 负责页面动画和交互效果
 
-4. 组员朱建鑫（UI/UX和联系功能）：
+4. 组员朱建鑫：
 - 负责联系我们页面（contact.js）
 - 设计和实现整体UI风格
 - 维护全局样式（Layout.module.css）
