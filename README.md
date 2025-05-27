@@ -54,6 +54,7 @@ npm run dev
 - 负责资料下载页面（resources.js）
 - 开发公共组件
 - 负责页面动画和交互效果
+![image](https://github.com/user-attachments/assets/f465a8b4-dd69-4d3a-ac09-ad183031394a)
 
 4. 组员朱建鑫：
 - 负责联系我们页面（contact.js）
@@ -61,13 +62,5 @@ npm run dev
 - 维护全局样式（Layout.module.css）
 - 负责表单验证和提交功能
 - 负责网站的SEO优化
-
-工作协作：
-1. 使用Git进行版本控制
-2. 建立开发规范文档
-3. 定期代码审查
-4. 组件和样式复用
-5. 统一的命名规范
-6. 定期进行项目进度同步
 
         
