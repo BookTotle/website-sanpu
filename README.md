@@ -25,8 +25,26 @@ npm run dev
 ![微信图片_2025-05-26_092730_668](https://github.com/user-attachments/assets/faef0561-9ff9-45d3-86a1-39adecc02992)
 ![微信图片_2025-05-26_092733_594](https://github.com/user-attachments/assets/572f0b2d-43a8-4b23-adbf-d955b34c6846)
 ![微信图片_2025-05-26_092736_788](https://github.com/user-attachments/assets/b51fea27-8c46-45a2-a621-9a5c12071c24)
-![image](https://github.com/user-attachments/assets/f465a8b4-dd69-4d3a-ac09-ad183031394a)
 
+1. **文字化编程**
+   - 课程讲了使用Quarto的内容
+   - 在我们的项目中，我们使用了规范的代码注释和文档化，虽然没有直接使用Quarto，但体现了文字化编程的思想
+   - 项目中的README.md文件就是一个很好的文字化编程的例子
+
+2. **编程语言应用**
+   - 课程讲了R、Python等语言编程
+   - 我们的项目使用了现代化的JavaScript/TypeScript，这与课程中强调的编程语言学习理念相符
+   - 我们的项目结构（src/pages、src/components等）展示了良好的编程语言应用实践
+
+3. **人工智能技术**
+   - 课程讲了专有神经网络模型，以及通用人工智能大模型的应用
+   - 虽然我们的项目目前没有直接使用AI模型，但项目的架构设计为未来集成AI功能预留了空间
+   - 项目的模块化设计使得未来可以方便地接入AI服务
+
+4. **其它数据科学知识**
+   - 我们的项目通过合理的数据组织和展示（如在news.js、research.js等页面），体现了数据科学的基本原则
+   - 项目的文件组织结构（如public/、src/等）展示了对数据管理的科学认识
+        
           
 # 我们的项目开发历程
 
